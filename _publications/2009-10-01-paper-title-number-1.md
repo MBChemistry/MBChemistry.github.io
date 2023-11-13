@@ -1,15 +1,16 @@
 ---
-title: "Paper Title Number 1"
+title: "Fructose malabsorption: causes, diagnosis and treatment
+"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2021-05-04
+venue: 'British Journal of Nutrition'
+paperurl: 'https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/fructose-malabsorption-causes-diagnosis-and-treatment/E737A2C1684E85257F28581628CD15BF'
+citation: 'Benardout, M., Le Gresley, A., ElShaer, A., & Wren, S. (2022). Fructose malabsorption: Causes, diagnosis and treatment. <i>British Journal of Nutrition 1</i>. 481-489.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+A review about Fructose Malaborption, the therapeutic target we are trying to develope non-systemic drugs to combat.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[access paper here]([http://academicpages.github.io/files/paper1.pdf](https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/fructose-malabsorption-causes-diagnosis-and-treatment/E737A2C1684E85257F28581628CD15BF)https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/fructose-malabsorption-causes-diagnosis-and-treatment/E737A2C1684E85257F28581628CD15BF)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Benardout, M., Le Gresley, A., ElShaer, A., & Wren, S. (2022). Fructose malabsorption: Causes, diagnosis and treatment. <i>British Journal of Nutrition 1</i>. 481-489.
