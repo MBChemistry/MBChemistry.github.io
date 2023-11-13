@@ -3,7 +3,7 @@ title: "Fructose malabsorption: causes, diagnosis and treatment
 "
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'A review about Fructose Malaborption, the therapeutic target we are trying to develope non-systemic drugs to combat.'
 date: 2021-05-04
 venue: 'British Journal of Nutrition'
 paperurl: 'https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/fructose-malabsorption-causes-diagnosis-and-treatment/E737A2C1684E85257F28581628CD15BF'
