@@ -28,4 +28,10 @@ Data mining
 ======
 In order to create our library of candidate fructose scavengers, we focused on pre-existing phenylboronic acids found in the literature, as listed by freely available compound libraries, such as ChEMBL, PubChem, and Zinc. Please see below a diagram describing our workflow for the project as a whole to identify potential non-systemic fructose scavengers
 
-![workflow](/images/workflow.png)
+![workflow](/images/workflow2.png)
+
+As a intial proof of concept for our scoring function, compound data will be exclusively derived from PubChem. A substructure search for phenylboronic acid (SMILES: OB(O)C1=CC=CC=C1 ) yielded 
+
+Initial compound filtering and processing
+======
+As with any data set, the data must be pre-processed prior to analysis, to ensure the quality of analysis ("garbage in, garbage out"). In our case, 
