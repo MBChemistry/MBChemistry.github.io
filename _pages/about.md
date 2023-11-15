@@ -20,10 +20,12 @@ Typically, the majority drugs going to market are required to be orally bioavail
 
 Our goal was to develop a quantifiable metric to identify pre-exsisting compounds with a high likelihood of poor oral bioavailbility, in order to create a library of small molecules with high gut residence.
 
-Fructose Malabosorption
+Fructose Malabsorption
 ======
 The goal of our discovery of non-systemic drugs is to identify suitable candidates for the treatment of Fructose Malabsorption, a condition related to the body's inability to absorb an excess of fructose in the small intestine, leading to symptoms commonly associated with Irritable Bowel Syndrome. It is known that the phenylboronic acid functional group is able to bind to fructose, and we aim to develop a library of non-sytemic fructose scavengers for the treatment of fructose malabsorption. Current treatments for fructose malabsorption are typically preventative, and primarily consist of dietary interventions; however, there is room for novel medicinal intervention in the treatment of fructose malabsorption.
 
 Data mining
 ======
-In order to create our library of candidate fructose scavengers, we focused on pre-existing phenylboronic acids found in the literature, as listed by freely available compound libraries, such as ChEMBL, and PubChem.
+In order to create our library of candidate fructose scavengers, we focused on pre-existing phenylboronic acids found in the literature, as listed by freely available compound libraries, such as ChEMBL, PubChem, and Zinc. Please see below a diagram describing our workflow for the project as a whole to identify potential non-systemic fructose scavengers
+
+![workflow](/images/workflow.png)
