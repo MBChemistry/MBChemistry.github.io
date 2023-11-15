@@ -18,7 +18,9 @@ The drug design process requires a medicinal chemist to not only consider the pr
 
 Typically, the majority drugs going to market are required to be orally bioavailable. This is often predicted in the early stage of the design design process by well-known 'rule of thumb' approaches, such as Lipinski's rule of 5 criteria, and later filters such as the Veber, Ghose, and Mugge filters. Although they are useful methods for the identification of orally bioavaible compounds, over-reliance on these filters has lead to an over-restriction of chemical space for small molecules, and although fairly accurate for identifying orally bioavaible compounds, they are notably weaker at accurately identifying compounds with poor oral bioavaibility.
 
-Our goal was to develop a quantifiable metric to identify pre-exsisting compounds with a high likelihood of poor oral bioavailbility, in order to create a library of small molecules with high gut residence.
+Our goal was to develop a quantifiable metric to identify pre-exsisting compounds with a high likelihood of poor oral bioavailbility, in order to create a library of small molecules with high gut residence. Please see below a diagram describing our workflow for the project as a whole to identify potential non-systemic fructose scavengers
+
+![workflow](/images/workflow2.png)
 
 Fructose Malabsorption
 ======
@@ -26,12 +28,9 @@ The goal of our discovery of non-systemic drugs is to identify suitable candidat
 
 Data mining
 ======
-In order to create our library of candidate fructose scavengers, we focused on pre-existing phenylboronic acids found in the literature, as listed by freely available compound libraries, such as ChEMBL, PubChem, and Zinc. Please see below a diagram describing our workflow for the project as a whole to identify potential non-systemic fructose scavengers
-
-![workflow](/images/workflow2.png)
-
-As a intial proof of concept for our scoring function, compound data will be exclusively derived from PubChem. A substructure search for phenylboronic acid (SMILES: OB(O)C1=CC=CC=C1 ) yielded 
+In order to create our library of candidate fructose scavengers, we focused on pre-existing phenylboronic acids found in the literature, as listed by freely available compound libraries, such as ChEMBL, PubChem, and Zinc. As a intial proof of concept for our scoring function, compound data will be exclusively derived from PubChem. A substructure search for phenylboronic acid (SMILES: OB(O)C1=CC=CC=C1 ) yielded at total of 220284 compounds for initial analysis
+since we are aiming to identify small molecules that we predict to have a high gut residence, we limited the maximum molecular weight to 700, resulting in a total of 157,514 compounds.
 
 Initial compound filtering and processing
 ======
-As with any data set, the data must be pre-processed prior to analysis, to ensure the quality of analysis ("garbage in, garbage out"). In our case, 
+As with any data set, the data must be pre-processed prior to analysis, to ensure the quality of analysis ("garbage in, garbage out"). In our case, our
