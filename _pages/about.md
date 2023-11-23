@@ -56,7 +56,8 @@ The scoring function
 The scoring function used to identify non-sytemic drugs is shown below
 
 <img src="/images/scoring_formula.png" alt="equation" width="250" height="250"/>
+
 Where:
-  *S* = score (higher = less druglike)
-  *Za* = normalised descriptor value
-  *W* = weighting (in the case of this proof-of-conception, always equals one)
+- *S* = score (higher = less druglike)
+- *Za* = normalised descriptor value
+- *W* = weighting (in the case of this proof-of-conception, always equals one)
