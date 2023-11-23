@@ -75,14 +75,14 @@ Although there is a high v variance in the QED value for the lower scoring compo
 
 Below we have graphs describing the relationship between each descriptor used in our calculations, and the scores for each compound. Although no solid conclusion can be made from these graphs, they help to highlight the need for more holistic approaches to designing metrics to evaluate druglikess, and the need to move on from "black-and-white" druglikess filters. 
 
-![figure3](score_logp.png)
-![figure4](score_MR.png)
-![figure5](score_tpsa.png)
-![figure6](score_mw.png)
-![figure7](score_numrot.png)
-![figure8](score_NumHBD.png)
-![figure9](score_NumHBApng)
-![figure10](score_fsp3.png)
+![figure3](/images/score_logp.png)
+![figure4](/images/score_MR.png)
+![figure5](/images/score_tpsa.png)
+![figure6](/images/score_mw.png)
+![figure7](/images/score_numrot.png)
+![figure8](/images/score_NumHBD.png)
+![figure9](/images/score_NumHBApng)
+![figure10](/images/score_fsp3.png)
 
 Conclusions and future work
 ======
