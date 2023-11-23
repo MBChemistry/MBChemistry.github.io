@@ -40,15 +40,24 @@ Selection and calculation of Physiochemical descriptors
 In order to predict non-druglikess in the longlist of compounds, we needed a consistent method of calculating the physiochemical (ADME) descriptors for each compound. Using RDKit, a free and open source cheminformatics library for the Python programming language, we were able to calculate descriptors in bulk for all compounds. Although we aim to design a metric that is inherently modular in nautre, enabling the incorporation of any additional descriptors, we chose to select descriptors that we felt confident in describing their effect on oral bioavailability. 
 
 These include:
-- Lipophilicity
-- Molar Refractivity
-- Topological Polar Surface Area
-- Molecular weight
-- Number of rotatable bonds
-- Number of Hydrogen bond donors
-- Number of Hydrogen bond acceptors
-- FSP3
+- Lipophilicity (logP)
+- Molar Refractivity (MR)
+- Topological Polar Surface Area (TPSA)
+- Molecular weight (MW)
+- Number of rotatable bonds (RotB)
+- Number of Hydrogen bond donors (HBD)
+- Number of Hydrogen bond acceptors (HBA)
+- Fraction of Carbon atoms that are sp3 hybridised (FSP3)
 
+Once calculated, it was important to consider that all these descriptors have different scales, and in order to equally weight each descriptors for relative comparison, each value must be normalised in a way that gives greater value to raw values that may indicate poor druglikeness. For MR, TPSA, MW, RotB, HBD and HBA, higher values will indicate poor oral bioavailability; for FSP3, lower values indicate poor oral bioavailability, and for logP, increasing distance from the mean logP (i.e. extreme values higher or lower than the mean) will indicate poor oral bioavailability. By taking into account these criteria, and the mean and standard deviation for each descriptor, normalised values for each descriptor were obtained.
 
+The scoring function
+======
+The scoring function used to identify non-sytemic drugs is shown below
 
+![equation](/images/scoring_formula.png)
 
+Where:
+  *S* = score (higher = less druglike)
+  *Za* = normalised descriptor value
+  *W* = weighting (in the case of this proof-of-conception, always equals one)
