@@ -61,3 +61,13 @@ Where:
 - *S* = score (higher = less druglike)
 - *Za* = normalised descriptor value
 - *W* = weighting (in the case of this proof-of-conception, always equals one)
+
+Higher scores indicate the least druglike compounds in the dataset, and thus the most desriable for our application as fructose scavengers.
+
+Results
+======
+Using Bickerton's Quantitative Estimate of Druglikeness (QED) score for comparison, we present the results of our scoring function below, with some of the highest scoring, and therefore least druglike, compounds labelled
+
+![figure1](/images/score_vs_unweightedqed_labelled.png)
+
+Although there is a high variance in the QED value for the lower scoring compounds, the variance decreases and trends to a negative correlation between our score and QED, indicating its potential for the identification of non-systemic compounds.
