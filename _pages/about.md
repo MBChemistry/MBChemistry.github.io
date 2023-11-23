@@ -20,7 +20,7 @@ Typically, the majority drugs going to market are required to be orally bioavail
 
 Our goal was to develop a quantifiable metric to identify pre-exsisting compounds with a high likelihood of poor oral bioavailbility, in order to create a library of small molecules with high gut residence. Please see below a diagram describing our workflow for the project as a whole to identify potential non-systemic fructose scavengers
 
-![workflow](/images/workflow2.png)
+![workflow](/images/workflow_ymf.png)
 
 Fructose Malabsorption
 ======
@@ -35,19 +35,19 @@ Initial compound filtering and processing
 ======
 As with any data set, the data must be pre-processed prior to analysis, to ensure the quality of analysis ("garbage in, garbage out"). In our case, the dataset containing, in addition to the phenyl boronic acid compounds we want to analyse, a number of benzoxoboroxoles, and pinacol-protected compounds. After filtering out these unwanted compounds, we were left with **48717** compounds for evaulation.
 
-**Selction and caculation of Physiochemical descriptors**
+Selection and calculation of Physiochemical descriptors
 ======
 In order to predict non-druglikess in the longlist of compounds, we needed a consistent method of calculating the physiochemical (ADME) descriptors for each compound. Using RDKit, a free and open source cheminformatics library for the Python programming language, we were able to calculate descriptors in bulk for all compounds. Although we aim to design a metric that is inherently modular in nautre, enabling the incorporation of any additional descriptors, we chose to select descriptors that we felt confident in describing their effect on oral bioavailability. 
 
 These include:
-*Lipophilicity
-*Molar Refractivity
-*Topological Polar Surface Area
-*Molecular weight
-*Number of rotatable bonds
-*Number of Hydrogen bond donors
-*Number of Hydrogen bond acceptors
-*FSP3
+- Lipophilicity
+- Molar Refractivity
+- Topological Polar Surface Area
+- Molecular weight
+- Number of rotatable bonds
+- Number of Hydrogen bond donors
+- Number of Hydrogen bond acceptors
+- FSP3
 
 
 
