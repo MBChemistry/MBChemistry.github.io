@@ -71,7 +71,7 @@ Using Bickerton's Quantitative Estimate of Druglikeness (QED) score for comparis
 
 Although there is a high v variance in the QED value for the lower scoring compounds, the variance decreases and trends to a negative correlation between our score and QED, indicating its potential for the identification of non-systemic compounds. We also calculated scores for a dataset containing known caco-2 papp results, a commonly-used *in vitro* cell line assay for the prediction of drug absorption through the small intestine. There are 1017 compounds in this dataset (11), significantly lower than the larger dataset from PubChem used primarily, meaning although it’s important to not draw complete conclusions from this more limited dataset, it was promising to see a similar trend showing, where high scores correlated with low caco-2 papp values. 
 
-![figure2](score_cacopapp.png)
+![figure2](/images/score_cacopapp.png)
 
 Below we have graphs describing the relationship between each descriptor used in our calculations, and the scores for each compound. Although no solid conclusion can be made from these graphs, they help to highlight the need for more holistic approaches to designing metrics to evaluate druglikess, and the need to move on from "black-and-white" druglikess filters. 
 
@@ -80,8 +80,8 @@ Below we have graphs describing the relationship between each descriptor used in
 ![figure5](/images/score_tpsa.png)
 ![figure6](/images/score_mw.png)
 ![figure7](/images/score_numrot.png)
-![figure8](/images/score_NumHBD.png)
-![figure9](/images/score_NumHBApng)
+![figure8](/images/score_numHBD.png)
+![figure9](/images/score_NumHBA.png)
 ![figure10](/images/score_fsp3.png)
 
 Conclusions and future work
