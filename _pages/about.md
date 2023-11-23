@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Miles Benardout, Stephen P. Wren, Adam Le Greseley, Amr ElShaer
+Miles Benardout, Stephen P. Wren, Adam Le Gresley, Amr ElShaer
 
 Kingston University
 
