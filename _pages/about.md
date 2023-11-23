@@ -55,8 +55,7 @@ The scoring function
 ======
 The scoring function used to identify non-sytemic drugs is shown below
 
-<img src="/images/scoring_formula.png" alt="equation" width="500"/>
-
+<img src="/images/scoring_formula.png" alt="equation" width="250" height="250"/>
 Where:
   *S* = score (higher = less druglike)
   *Za* = normalised descriptor value
