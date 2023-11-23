@@ -91,6 +91,22 @@ We have developed a promising metric for the identification of non-druglike smal
 
 We have also formed a collaborative project to investigate the application of neural networks in order to optimise this metric's ability to predict caco-2 papp permeability, in order to maximise this metrics ability to identify non-systemic small molecules.
 
+Frequently Asked Questions 
+======
+
+*Why is sugar transport important?* Sugar transport is crucial for the successful absorption of monosaccharides from the small intestine into the bloodstream. Requiring the utilisation of specialised channel proteins for their absorption, high concentrations of fructose in the small intestine can cause these channel proteins to become overloaded, in particular when fructose is present in excess of glucose, resulting in the onset of gastrointestinal complaints.
+
+*What is absorption/permeability?* Drug absorption is the process of a drug passing through the gastrointestinal membrane in order to enter the bloodstream. Most oral drugs need to permeate the small intestine to be distributed to their target via the bloodstream. However, the target of non-systemic drugs are located within the gastrointestinal lumen itself, so the drugs need to be designed in order to limit absorption as much as possible.
+
+*what are boronates/boronic acids?* Boronic acids are a functional group with a boron atom connected to two hydroxyl groups and an alkyl/aryl group. Well known for their use as part of the Suzuki coupling reaction, they have also been used in medicinal applications.
+
+*What is PBA?* PBA is shorthand for phenylboronic acid, the base for the compounds we are trying to identify, as phenylboronic acids have been noted for their ability to bind to 1,2-cis diols, such as those found in monosaccharides.
+
+*Why are computers needed for this work?* They enable the rapid, high-throughput calculations of a huge number of compounds that simply could not be calculated in a reasonable time manually.
+
+*What will happen at the end of this study?* We aim to propose a small set of compounds for synthesis, which we believe will have a high likelihood for success as non-system fructose selective scavengers. We aim to start a project in the future with a future PhD student to synthesise these compounds and evaluate them in vitro.
+
+
 References
 ======
 1.	Lipinski CA, Lombardo F, Dominy BW, Feeney PJ. Experimental and computational approaches to estimate solubility and permeability in drug discovery and development settings. Vol. 23, Advanced Drug Delivery Reviews. Elsevier Science B.V.; 1997. p. 3–25. 
